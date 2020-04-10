@@ -3,4 +3,6 @@ OBJECTS = simple.o
 CFLAGS = -g -Wall
 
 simple.exe: $(OBJECTS)
-	$(CC) $(CFLAGS) $(OBJECTS) -o simple.exe
+	$(CC) $(CFLAGS) $? -o $@ 
+
+#	$(CC) $(CFLAGS) $(OBJECTS) -o $@ 
