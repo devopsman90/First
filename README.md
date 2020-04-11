@@ -1,15 +1,5 @@
 # test
 
-<details>
-<summary>Click here to see terminal history + debug info</summary>
-<pre>
-488 cd /opt/LLL/controller/laser/
-489 vi LLLSDLaserControl.c
-490 make
-491 make install
-492 ./sanity_check
-493 ./configure -o test.cfg
-494 vi test.cfg
 
 ------
 
@@ -39,5 +29,18 @@ View more octocats on the [Octodex](https://octodex.github.com/)!
 
 Press <kbd>W</kbd> to go up, and <kbd>A</kbd> to go down.
 If you can find the <kbd>ESC</kbd>, pressing that will fire missiles 🚀
+
+---------
+
+<details>
+<summary>Click here to see terminal history + debug info</summary>
+<pre>
+488 cd /opt/LLL/controller/laser/
+489 vi LLLSDLaserControl.c
+490 make
+491 make install
+492 ./sanity_check
+493 ./configure -o test.cfg
+494 vi test.cfg
 
     
